@@ -1,5 +1,5 @@
 <?php
-$version= "1.5";
+$version= "1.6";
 ?>
 
 <!doctype html>
@@ -31,7 +31,7 @@ $version= "1.5";
       <div id="wrapper">
         <img class="mb-4" src="dvdendo-footer.png" alt="" width="200">
         <br>
-        <h3>Devop Test v.<?=$version?><small><?=$_SERVER['ENVIRONMENT']?></small></h3>
+        <h3>Devop Test v.<?=$version?><br></b><small><?=$_SERVER['ENVIRONMENT']?></small></h3>
       </div>
 
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
